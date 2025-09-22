@@ -1,0 +1,36 @@
+name: placacerta
+description: "Capture e gerencie fotos de placas veiculares com agilidade. Este app Android integra login Google e salva suas imagens diretamente no Drive, celular e servidor, garantindo segurança e organização."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  camera: ^0.11.2
+  image_picker: '>=1.1.2'
+  google_sign_in: '>=6.2.1'
+  googleapis: ^14.0.0
+  path_provider: ^2.0.0
+  shared_preferences: ^2.0.0
+  permission_handler: ^12.0.0
+  supabase_flutter: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/dreamflow_icon.jpg
+  remove_alpha_ios: true
